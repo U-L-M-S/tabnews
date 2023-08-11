@@ -1,16 +1,21 @@
 {
-  "name": "tabnews",
-  "version": "1.0.0",
-  "description": "This is a project created with the main purpose of preparing myself for my apprenticeship (Ausbildung September 2023) and enhancing my programming skills, logic, and the creation of clean and easily maintainable projects for the future (for myself and others).",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "name": "tabnews",
+    "version": "1.0.0",
+    "description": "This is a project created with the main purpose of preparing myself for my apprenticeship (Ausbildung September 2023) and enhancing my programming skills, logic, and the creation of clean and easily maintainable projects for the future (for myself and others).",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "lint:check": "prettier --check .",
+        "lint:fix": "prettier --write ."
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "next": "^13.1.6",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.0.1"
+    }
 }
