@@ -1,6 +1,5 @@
 function Home() {
-  return <h1>Mae comeu bastante hoje... Desde cafe da manha ate um sanduiche que ue acabei de fazer 😁🥪</h1>
+  return <h1>If you can read this I hope u have a amazing day 😁</h1>
 }
 
 export default Home;
-
